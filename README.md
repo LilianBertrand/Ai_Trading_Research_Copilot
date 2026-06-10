@@ -171,33 +171,6 @@ If no key is configured, the application automatically uses a rules-based resear
 
 ---
 
-## Example Prompts
+## Live Demo
 
-```text
-Analyze Apple and propose a strategy
-```
-
-```text
-Compare Nvidia and Microsoft from a risk and momentum perspective
-```
-
-```text
-Analyze oil, gold and copper and explain the macro risk setup
-```
-
-```text
-Build a defensive portfolio view with Apple, Microsoft, TLT and gold
-```
-
----
-
-## Important Disclaimer
-
-This project is for educational and portfolio demonstration purposes only. It is not investment advice and should not be used to make real trading or investment decisions.
-
-
-## V2.1 Fixes
-
-- Improved natural-language ticker parsing. Example: `Analyze Apple and propose a strategy` now resolves to `AAPL`, not `APPLE` or `AND`.
-- Removed Streamlit `use_container_width` warnings by using `width="stretch"` with backwards-compatible fallbacks.
-- Kept demo-data fallbacks for environments where Yahoo Finance is unavailable.
+https://aitradingresearchcopilot-wraspsngxjdicnbxfehmvw.streamlit.app/
